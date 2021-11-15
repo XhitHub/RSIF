@@ -44,7 +44,7 @@ passport.use(new LocalStrategy(
 // app.use(session({ secret: "ugthisduhrfgeiru" }));
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(passport.initialize());
-app.use(passport.session());
+// app.use(passport.session());
 
 
 // view engine setup
